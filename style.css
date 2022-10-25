@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Kumbh sans", sans-serif;
+  background-image: url(images/bg-pattern-top.svg),
+    url(images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-color: hsl(185, 75%, 39%);
+  background-position: right 50vw bottom 50vh, left 50vw top 50vh;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+}
+
+.container {
+  width: 350px;
+  background-color: white;
+  box-shadow: hsl(212, 45%, 89%);
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.background-img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+.header {
+  font-size: 24px;
+  margin: 5px 0;
+  text-align: center;
+  color: hsl(218, 44%, 22%);
+}
+
+.london {
+  text-align: center;
+  font-size: 17px;
+  color: hsl(220, 15%, 55%);
+  padding-bottom: 25px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid hsl(0, 0%, 59%);
+}
+.victor-img {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 7px;
+}
+.age {
+  color: #6b7082;
+  font-size: 18px;
+  font-weight: 300;
+  margin-left: 5px;
+}
+
+.img {
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: -50px;
+  border: 5px solid white;
+}
+
+.social-activity {
+  display: flex;
+  justify-content: space-between;
+  letter-spacing: 1px;
+  padding: 20px 30px;
+}
+
+.num-1 {
+  margin-left: 12%;
+}
+
+.num-2 {
+  margin-left: -14%;
+}
+
+.num-3 {
+  margin-left: -3%;
+}
+.activity {
+  font-size: 12px;
+  font-weight: 500;
+  color: #6b7082;
+  margin-top: 5px;
+}
